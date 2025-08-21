@@ -24,7 +24,7 @@
     </worldbody>
 
     <actuator>
-        <!-- 电机，用于后续控制 -->
+        <!--主动单元，用于后续控制 -->
         <motor name="motor" joint="hinge" ctrlrange="-2 2" ctrllimited="true"/>
     </actuator>
 
@@ -33,4 +33,5 @@
         <jointpos name="pole_angle" joint="hinge"/>
         <jointvel name="pole_velocity" joint="hinge"/>
     </sensor>
+
 </mujoco>
